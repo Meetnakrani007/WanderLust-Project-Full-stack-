@@ -22,6 +22,7 @@ const flash = require("connect-flash");
 const passport = require("passport");
 const LocalStrategy = require("passport-local");
 const User = require("./models/user.js");
+const dbUrl = process.env.ATLASDB_URL;
 
 app.use(express.urlencoded({ extended: true }));
 app.set("view engine", "ejs");
@@ -55,7 +56,7 @@ const sessionOptions = {
   },
 };
 
-const dbUrl = process.env.ATLASDB_URL;
+
 main()
   .then((res) => {
     console.log("connected with DB");
