@@ -21,3 +21,16 @@
 1. Clone the repository:  
    ```sh
    git clone https://github.com/yourusername/wanderlust.git
+2. Navigate to the project folder:
+   cd wanderlust
+3. Install dependencies
+   npm install
+4. Start the server
+   npm start  
+5. Open the app in your browser at http://localhost:3000.
+   
+👤 Owner
+Developed by Meet Nakrani
+
+📄 License
+This project is open-source and available under the MIT License.
