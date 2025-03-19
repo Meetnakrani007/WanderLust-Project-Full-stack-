@@ -3,6 +3,15 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  width: 100%;
+  width: 100% !important;
+  overflow-x: hidden;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden; /* Prevent horizontal scroll */
 }
 .container {
   flex: 1;
@@ -19,11 +28,10 @@ body {
 .nav-link {
   color: #222222 !important;
 }
-.navbar-collapse
-{
+.navbar-collapse {
   background-color: #ebebeb;
 }
-.show{
+.show {
   padding-top: 1rem;
 }
 
@@ -98,8 +106,7 @@ body {
   background-color: #fe424d !important;
   border: none !important;
 }
-.editImage
-{
+.editImage {
   height: 250px;
   width: 300px;
 }

@@ -73,12 +73,12 @@
           <hr>
           <% if(listing.reviews.length > 0) {%>
        <p><b>All Reviews</b></p>
-       <div class="row">
+       <div class="row review-info">
 
           <% for(review of listing.reviews){ %>
-        
-            <div class="card col-5 mb-3 ms-2" >
-              <div class="card-body">
+        <!-- row-cols-lg-3 row-cols-md-2 row-cols-sm-1 -->
+            <div class="card row mb-3 ms-2 col-lg-5" >
+              <div class="card-body ">
                 <h5 class="card-title">@<%= review.author.username %></h5>
                 <p class="starability-result card-text" data-rating="<%= review.rating %>"></p>
                 <p class="card-text"><%= review.comment%></p>
