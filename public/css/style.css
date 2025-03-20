@@ -19,7 +19,7 @@ html {
 /* Navbar */
 .navbar {
   height: 5rem;
-  background-color: #ebebeb;
+  background-color: white;
 }
 .fa-compass {
   color: #fe424d;
@@ -29,7 +29,7 @@ html {
   color: #222222 !important;
 }
 .navbar-collapse {
-  background-color: #ebebeb;
+  background-color: white;
 }
 .show {
   padding-top: 1rem;
